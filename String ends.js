@@ -11,6 +11,9 @@ function solution(str, ending) {
               // TODO: complete
 
               return ending.length < 1 ? true : (str.slice(-ending.length) === ending);
+
+              //                          OR
+              //                          return str.endsWith(ending); also works
 }
 
 //ending.length < 1 ? true will solve the incidence where the ending string is null
