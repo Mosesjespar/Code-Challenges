@@ -16,3 +16,10 @@ function XO(str) {
   
  return ((smallO+bigO) == (bigX+smallX))
 }
+
+//          DESCRIPTION
+/*
+        The str.split().length-1 mehtod finds the number of times a character inside () appears in str
+        After that we compare the times ohs and exes appear in str
+        boom...!!!!
+*/
