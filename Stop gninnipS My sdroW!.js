@@ -21,3 +21,8 @@ function spinWords(string){
         
     
   }
+  /*
+            DESCRIPTION
+
+  The rev function looks for any string element with length greater than 4....if true,the string is reversed else stays unchanged.
+  */
