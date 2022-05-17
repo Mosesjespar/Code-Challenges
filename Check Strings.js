@@ -19,3 +19,10 @@ function checkStrings(s1, s2) {
 
 }
 
+//              ALGORITHM
+/*
+    For the condition to be true,all characters in s2 must appear in s1 at least once.
+    Therefore the soln to this is going through all characters in s2 and counting the number of times each character appears in s1.
+    If all chars appear in s1 then the thing is true else false
+*/
+
