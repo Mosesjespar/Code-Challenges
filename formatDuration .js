@@ -1,3 +1,7 @@
+/*
+You are required to convert given time in seconds into the format years  + hours + minutes + seconds
+*/
+
 function formatDuration (seconds) {
   var time = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 },
       res = [];
