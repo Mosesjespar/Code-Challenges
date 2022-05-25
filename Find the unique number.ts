@@ -11,3 +11,8 @@ The tests contain some very huge arrays, so think about performance.
 function findUniq(arr) {
   return arr.find(n => arr.indexOf(n) === arr.lastIndexOf(n));
 }
+/*
+The logic here is to play with occurances of the number.
+For uniqueness, the first occurance of th item sould be equal to the last
+
+*/
