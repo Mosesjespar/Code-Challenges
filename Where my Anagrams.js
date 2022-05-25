@@ -9,5 +9,9 @@ What is an anagram? Well, two words are anagrams of each other if they both cont
 */
 function anagrams(word, words) {
     word = word.split('').sort().join('');
-    return words.filter(function (v) { return word == v.split('').sort().join(''); });
+    function wrd(v) {
+         return word == v.split('').sort().join('');
+         }
+         
+    return words.filter(wrd);
 }
