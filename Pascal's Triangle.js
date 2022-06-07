@@ -12,11 +12,11 @@ To build the triangle, start with a single 1 at the top, for each number in the 
   1   2   1
 1   3   3   1
 */
-function pascal(n) {
+function pascal(depth) {
     //code here
     const arr = []
 
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < depth; i++) {
         const row = [1]
 
         for (let j = 1; j < i; j++) {
